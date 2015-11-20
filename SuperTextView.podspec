@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "enkaism" => "enkaism@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SuperTextView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/enkaism/SuperTextView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'SuperTextView' => ['Pod/Assets/*.png']
+    'SuperTextView' => ['Pod/Classes/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
