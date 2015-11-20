@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = "SuperTextView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of SuperTextView."
+  s.version          = "0.1.1"
+  s.summary          = "SuperTextView is awesome UITextView"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "super UITextView"
+  s.description      = "super UITextView weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SuperTextView"
+  s.homepage         = "https://github.com/enkaism/SuperTextView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "enkaism" => "enkaism@gmail.com" }
