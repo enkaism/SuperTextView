@@ -1,0 +1,14 @@
+PODS:
+  - SuperTextView (0.1.0)
+
+DEPENDENCIES:
+  - SuperTextView (from `../`)
+
+EXTERNAL SOURCES:
+  SuperTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SuperTextView: 52466770a8cf22cdb20ba3fc1442dc025bfaefef
+
+COCOAPODS: 0.39.0

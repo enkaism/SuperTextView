@@ -1,0 +1,6 @@
+framework module SuperTextView {
+  umbrella header "SuperTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SuperTextView_Example {
+  umbrella header "Pods-SuperTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

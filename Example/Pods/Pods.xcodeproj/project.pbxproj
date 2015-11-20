@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0F4D6D4688033C0B5BFD327EB88033 /* SuperTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1931FB448A51AE0788ACEFEEF6C8013D /* SuperTextView.xib */; };
+		76B0C5A9A0BA32E2A6A136CA92E5BC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7D3B1B110A0E39C243E70FD9DA58CFA3 /* SuperTextView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1931FB448A51AE0788ACEFEEF6C8013D /* SuperTextView.xib */; };
+		812D6AA6C8D6E3AEB269DD1A7AA7850D /* Pods-SuperTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B5F3B2BF9C037A3F73F0111A14C5AB /* Pods-SuperTextView_Tests-dummy.m */; };
+		84539CA3CDC47119B0814A2986453B34 /* SuperTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBFFE282C800AF6726C84D2FAD68628 /* SuperTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84F563878A517EBB03C42107612EA04C /* Pods-SuperTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E9643D0306BC898951F89AD70714B9 /* Pods-SuperTextView_Example-dummy.m */; };
+		96E0A9F5EB8E88F6FEF7600B22002553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BA0412FB1DB892748546ED45FFBE3BB7 /* SuperTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA07FB49F205789E278C2D5235BF43 /* SuperTextView.swift */; };
+		CB5F0E01EC23EA91A3F8B5831EC04767 /* SuperTextView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4599F887E1C1E1B6DAB193358D60BBD /* SuperTextView.bundle */; };
+		DBE5B52276FE19BAEA1EF5CD2445B6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E31332A88626C031050CCD1EEBBAD588 /* Pods-SuperTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E09A30A28B2CE0EE798635C85D4CD29 /* Pods-SuperTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E605CD3F97047611D5541AF384DC24DE /* SuperTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6BF8663A069258063959015EFA8B2 /* SuperTextView-dummy.m */; };
+		F578FEA027B329FA30751A63101C6F39 /* Pods-SuperTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E982CFFC985C3FF6B03BA6ECD40FD68C /* Pods-SuperTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CB5B09B9A8EE706ABB0DFACDB292264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7278AE21B88453BFE0379EC5C1741814;
+			remoteInfo = SuperTextView;
+		};
+		8BFEB62A2A195D6F7E02D05ED374503F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7278AE21B88453BFE0379EC5C1741814;
+			remoteInfo = SuperTextView;
+		};
+		935CDC5CF8B8035C88E77EBF26D1222F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B6B22A0A3A708F2D792271028B4562;
+			remoteInfo = "SuperTextView-SuperTextView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA39F07FCE9A4D656192DBEC04516B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC2250CA020F72CD7236A1E20DA42E6 /* Pods-SuperTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1497301E1EF2BE70B3F1898137D40D0A /* Pods-SuperTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		15E9643D0306BC898951F89AD70714B9 /* Pods-SuperTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		172EDF0096E82824F5B5647D78BFFED2 /* SuperTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1931FB448A51AE0788ACEFEEF6C8013D /* SuperTextView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SuperTextView.xib; sourceTree = "<group>"; };
+		2389502CAEC468262D2F92A33C0C29E6 /* Pods-SuperTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SuperTextView_Example.modulemap"; sourceTree = "<group>"; };
+		2FD6BF8663A069258063959015EFA8B2 /* SuperTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperTextView-dummy.m"; sourceTree = "<group>"; };
+		3AC8768F5FA86788A9F1180428C79EB8 /* Pods-SuperTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47D8F96030C6AFDA1330ABC3072D8AFB /* Pods-SuperTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SuperTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		4C8FFAE996E68D19B29AFF017137FB13 /* Pods-SuperTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		5175F42A942E4C51A66E3D518D78913B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58466B5C35B12DBD35604840F3B56F55 /* Pods-SuperTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		67D13B0B1C952A0B2E59548B6050608B /* Pods-SuperTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B5F3B2BF9C037A3F73F0111A14C5AB /* Pods-SuperTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C25BAD862F43242F71261D2803DABE5 /* Pods-SuperTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6DA965A663C57DDAC289EF872030E8EA /* Pods-SuperTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		726F3FCE2BDFD807F5CEA983BC26B2E2 /* Pods_SuperTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBFFE282C800AF6726C84D2FAD68628 /* SuperTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperTextView-umbrella.h"; sourceTree = "<group>"; };
+		7E2997AF831E60FFFF701AE19560A02C /* Pods-SuperTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85449981D62FB0D8AB3FCF330C949698 /* SuperTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperTextView.xcconfig; sourceTree = "<group>"; };
+		85CC722CDD764693291012DE9CEEFE40 /* Pods-SuperTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		86DB686567B2E98B3321D9B4271E2EC9 /* Pods_SuperTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E09A30A28B2CE0EE798635C85D4CD29 /* Pods-SuperTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A59AF7BF72DBBE40F59A942962B766D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56F11E19302DDB5E8D685E55816F25A /* Pods-SuperTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEEA07FB49F205789E278C2D5235BF43 /* SuperTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SuperTextView.swift; sourceTree = "<group>"; };
+		E4599F887E1C1E1B6DAB193358D60BBD /* SuperTextView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperTextView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E982CFFC985C3FF6B03BA6ECD40FD68C /* Pods-SuperTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		EA40AD27D47300B8E9834C1C323856E5 /* SuperTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperTextView-prefix.pch"; sourceTree = "<group>"; };
+		F6D7C244B9D66BE10EE617BC3B8355AE /* SuperTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SuperTextView.modulemap; sourceTree = "<group>"; };
+		FF2E7247E147E63A24AA963CA8FD493C /* Pods-SuperTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13720F7FCE39EAC5A00B7C3DE8ACE8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE5B52276FE19BAEA1EF5CD2445B6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D0AEFDD11F6B106D10C93CD2D07FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E0A9F5EB8E88F6FEF7600B22002553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583DFA7BA0F3EC2EFDDC1132294EDC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835C1F08C6F76CA7371A34FFE8E0BF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0C5A9A0BA32E2A6A136CA92E5BC66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08719E67A464EA54D988CA2FC926757F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A6F39E69E8C463818CFF2A88E048DE /* SuperTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B1C33399D08B3A5CCB7DDEC2D63A5BD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4779C2FEB90A6D6E819EE77FC9FC2EA4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4779C2FEB90A6D6E819EE77FC9FC2EA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				08719E67A464EA54D988CA2FC926757F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B28AE2541B418C1D5E2B84E5F67DDB91 /* Products */,
+				DBB4CC95544ABCA9E61ABEF5C98FCFBD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86F6949EBEBF2E0181D39C55B0830BA1 /* Pods-SuperTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5175F42A942E4C51A66E3D518D78913B /* Info.plist */,
+				2389502CAEC468262D2F92A33C0C29E6 /* Pods-SuperTextView_Example.modulemap */,
+				FF2E7247E147E63A24AA963CA8FD493C /* Pods-SuperTextView_Example-acknowledgements.markdown */,
+				0DC2250CA020F72CD7236A1E20DA42E6 /* Pods-SuperTextView_Example-acknowledgements.plist */,
+				15E9643D0306BC898951F89AD70714B9 /* Pods-SuperTextView_Example-dummy.m */,
+				85CC722CDD764693291012DE9CEEFE40 /* Pods-SuperTextView_Example-frameworks.sh */,
+				4C8FFAE996E68D19B29AFF017137FB13 /* Pods-SuperTextView_Example-resources.sh */,
+				E982CFFC985C3FF6B03BA6ECD40FD68C /* Pods-SuperTextView_Example-umbrella.h */,
+				1497301E1EF2BE70B3F1898137D40D0A /* Pods-SuperTextView_Example.debug.xcconfig */,
+				6C25BAD862F43242F71261D2803DABE5 /* Pods-SuperTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-SuperTextView_Example";
+			path = "Target Support Files/Pods-SuperTextView_Example";
+			sourceTree = "<group>";
+		};
+		8DD4D8637CA010BA7A76C518112E363C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C33399D08B3A5CCB7DDEC2D63A5BD /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B28AE2541B418C1D5E2B84E5F67DDB91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726F3FCE2BDFD807F5CEA983BC26B2E2 /* Pods_SuperTextView_Example.framework */,
+				86DB686567B2E98B3321D9B4271E2EC9 /* Pods_SuperTextView_Tests.framework */,
+				E4599F887E1C1E1B6DAB193358D60BBD /* SuperTextView.bundle */,
+				172EDF0096E82824F5B5647D78BFFED2 /* SuperTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C672933EFA9062283AAC8EBC85A61AA9 /* Pods-SuperTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A59AF7BF72DBBE40F59A942962B766D6 /* Info.plist */,
+				47D8F96030C6AFDA1330ABC3072D8AFB /* Pods-SuperTextView_Tests.modulemap */,
+				6DA965A663C57DDAC289EF872030E8EA /* Pods-SuperTextView_Tests-acknowledgements.markdown */,
+				7E2997AF831E60FFFF701AE19560A02C /* Pods-SuperTextView_Tests-acknowledgements.plist */,
+				68B5F3B2BF9C037A3F73F0111A14C5AB /* Pods-SuperTextView_Tests-dummy.m */,
+				3AC8768F5FA86788A9F1180428C79EB8 /* Pods-SuperTextView_Tests-frameworks.sh */,
+				58466B5C35B12DBD35604840F3B56F55 /* Pods-SuperTextView_Tests-resources.sh */,
+				8E09A30A28B2CE0EE798635C85D4CD29 /* Pods-SuperTextView_Tests-umbrella.h */,
+				67D13B0B1C952A0B2E59548B6050608B /* Pods-SuperTextView_Tests.debug.xcconfig */,
+				B56F11E19302DDB5E8D685E55816F25A /* Pods-SuperTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-SuperTextView_Tests";
+			path = "Target Support Files/Pods-SuperTextView_Tests";
+			sourceTree = "<group>";
+		};
+		D1C356F6F08A7C11ACBEF56FF478BBFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DEEA07FB49F205789E278C2D5235BF43 /* SuperTextView.swift */,
+				1931FB448A51AE0788ACEFEEF6C8013D /* SuperTextView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DBB4CC95544ABCA9E61ABEF5C98FCFBD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F6949EBEBF2E0181D39C55B0830BA1 /* Pods-SuperTextView_Example */,
+				C672933EFA9062283AAC8EBC85A61AA9 /* Pods-SuperTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EA86FD96FEE2A42F7B62D683AEA931A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D1C356F6F08A7C11ACBEF56FF478BBFD /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F8A6F39E69E8C463818CFF2A88E048DE /* SuperTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EA86FD96FEE2A42F7B62D683AEA931A4 /* Pod */,
+				8DD4D8637CA010BA7A76C518112E363C /* Resources */,
+				FDA9B5BB8B293E0592B377F31D56B1FA /* Support Files */,
+			);
+			name = SuperTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDA9B5BB8B293E0592B377F31D56B1FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA39F07FCE9A4D656192DBEC04516B4 /* Info.plist */,
+				F6D7C244B9D66BE10EE617BC3B8355AE /* SuperTextView.modulemap */,
+				85449981D62FB0D8AB3FCF330C949698 /* SuperTextView.xcconfig */,
+				2FD6BF8663A069258063959015EFA8B2 /* SuperTextView-dummy.m */,
+				EA40AD27D47300B8E9834C1C323856E5 /* SuperTextView-prefix.pch */,
+				7DBFFE282C800AF6726C84D2FAD68628 /* SuperTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SuperTextView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		116ABC3B519719ED5773C52F70B8CDA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84539CA3CDC47119B0814A2986453B34 /* SuperTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4399A03CA0D739C6E5473CA6CABAB596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31332A88626C031050CCD1EEBBAD588 /* Pods-SuperTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6E67547AD5855308334E1D92B9A278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F578FEA027B329FA30751A63101C6F39 /* Pods-SuperTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		482AA5A6A7830F1ACDB118AC7243F2B4 /* Pods-SuperTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F135CD362989EACD27413483D40D0463 /* Build configuration list for PBXNativeTarget "Pods-SuperTextView_Example" */;
+			buildPhases = (
+				F9FE2AD35F244E50B21175DF59EEC8A3 /* Sources */,
+				13720F7FCE39EAC5A00B7C3DE8ACE8C2 /* Frameworks */,
+				4A6E67547AD5855308334E1D92B9A278 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B76136F4AF49E07833AAF9FF115A9D /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperTextView_Example";
+			productName = "Pods-SuperTextView_Example";
+			productReference = 726F3FCE2BDFD807F5CEA983BC26B2E2 /* Pods_SuperTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7278AE21B88453BFE0379EC5C1741814 /* SuperTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59B33910F2F50D79E22BEC2BA0EE9F4 /* Build configuration list for PBXNativeTarget "SuperTextView" */;
+			buildPhases = (
+				E920F7752E32F2BC3BB9A372CAA03417 /* Sources */,
+				835C1F08C6F76CA7371A34FFE8E0BF00 /* Frameworks */,
+				1A2CCEFCF51F9DAF3D2701CAF89D5656 /* Resources */,
+				116ABC3B519719ED5773C52F70B8CDA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB54C24020DBD1BC2C4770A6F1C1D2A5 /* PBXTargetDependency */,
+			);
+			name = SuperTextView;
+			productName = SuperTextView;
+			productReference = 172EDF0096E82824F5B5647D78BFFED2 /* SuperTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		883661CF3FA1926A7963434D78F635D3 /* Pods-SuperTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F325C0578092E25F3D9CD8DE67A6ADD /* Build configuration list for PBXNativeTarget "Pods-SuperTextView_Tests" */;
+			buildPhases = (
+				E3504B41EBA40C550DC78BA9F56E25F2 /* Sources */,
+				45D0AEFDD11F6B106D10C93CD2D07FFB /* Frameworks */,
+				4399A03CA0D739C6E5473CA6CABAB596 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E867BEB471368005818D0A56ED50D4A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperTextView_Tests";
+			productName = "Pods-SuperTextView_Tests";
+			productReference = 86DB686567B2E98B3321D9B4271E2EC9 /* Pods_SuperTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5B6B22A0A3A708F2D792271028B4562 /* SuperTextView-SuperTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0ADD751C5DC2BC1CF1B8680AEC6A99 /* Build configuration list for PBXNativeTarget "SuperTextView-SuperTextView" */;
+			buildPhases = (
+				D045C62D946F41F650FDE46E08FA32C9 /* Sources */,
+				583DFA7BA0F3EC2EFDDC1132294EDC0C /* Frameworks */,
+				3C5DB285187CCDFB19C5035E19F5D035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperTextView-SuperTextView";
+			productName = "SuperTextView-SuperTextView";
+			productReference = E4599F887E1C1E1B6DAB193358D60BBD /* SuperTextView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B28AE2541B418C1D5E2B84E5F67DDB91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482AA5A6A7830F1ACDB118AC7243F2B4 /* Pods-SuperTextView_Example */,
+				883661CF3FA1926A7963434D78F635D3 /* Pods-SuperTextView_Tests */,
+				7278AE21B88453BFE0379EC5C1741814 /* SuperTextView */,
+				D5B6B22A0A3A708F2D792271028B4562 /* SuperTextView-SuperTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2CCEFCF51F9DAF3D2701CAF89D5656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5F0E01EC23EA91A3F8B5831EC04767 /* SuperTextView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5DB285187CCDFB19C5035E19F5D035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0F4D6D4688033C0B5BFD327EB88033 /* SuperTextView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D045C62D946F41F650FDE46E08FA32C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3504B41EBA40C550DC78BA9F56E25F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812D6AA6C8D6E3AEB269DD1A7AA7850D /* Pods-SuperTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E920F7752E32F2BC3BB9A372CAA03417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E605CD3F97047611D5541AF384DC24DE /* SuperTextView-dummy.m in Sources */,
+				BA0412FB1DB892748546ED45FFBE3BB7 /* SuperTextView.swift in Sources */,
+				7D3B1B110A0E39C243E70FD9DA58CFA3 /* SuperTextView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FE2AD35F244E50B21175DF59EEC8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F563878A517EBB03C42107612EA04C /* Pods-SuperTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B76136F4AF49E07833AAF9FF115A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperTextView;
+			target = 7278AE21B88453BFE0379EC5C1741814 /* SuperTextView */;
+			targetProxy = 1CB5B09B9A8EE706ABB0DFACDB292264 /* PBXContainerItemProxy */;
+		};
+		CB54C24020DBD1BC2C4770A6F1C1D2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SuperTextView-SuperTextView";
+			target = D5B6B22A0A3A708F2D792271028B4562 /* SuperTextView-SuperTextView */;
+			targetProxy = 935CDC5CF8B8035C88E77EBF26D1222F /* PBXContainerItemProxy */;
+		};
+		E867BEB471368005818D0A56ED50D4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperTextView;
+			target = 7278AE21B88453BFE0379EC5C1741814 /* SuperTextView */;
+			targetProxy = 8BFEB62A2A195D6F7E02D05ED374503F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1331E34CDE135651DBFD4459DFF4DD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85449981D62FB0D8AB3FCF330C949698 /* SuperTextView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SuperTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		24DDC2D9AC612239B0344E01ADA4B2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56F11E19302DDB5E8D685E55816F25A /* Pods-SuperTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperTextView_Tests/Pods-SuperTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SuperTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EFD40EC80B985098EFEC5F886A34173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D13B0B1C952A0B2E59548B6050608B /* Pods-SuperTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperTextView_Tests/Pods-SuperTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SuperTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C61DB1E9FB695658DB6E42193F8E138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85449981D62FB0D8AB3FCF330C949698 /* SuperTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SuperTextView/SuperTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperTextView/SuperTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SuperTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91747A22153C577DF01AD9B7BA84F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85449981D62FB0D8AB3FCF330C949698 /* SuperTextView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SuperTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9D1B29CBB05C82E042819397C61942FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C25BAD862F43242F71261D2803DABE5 /* Pods-SuperTextView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperTextView_Example/Pods-SuperTextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SuperTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1572476FA74885FB302BDCBCBBD02A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85449981D62FB0D8AB3FCF330C949698 /* SuperTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SuperTextView/SuperTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperTextView/SuperTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SuperTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE8FE723421F8B47321494A00E10A858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1497301E1EF2BE70B3F1898137D40D0A /* Pods-SuperTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperTextView_Example/Pods-SuperTextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SuperTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F325C0578092E25F3D9CD8DE67A6ADD /* Build configuration list for PBXNativeTarget "Pods-SuperTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFD40EC80B985098EFEC5F886A34173 /* Debug */,
+				24DDC2D9AC612239B0344E01ADA4B2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0ADD751C5DC2BC1CF1B8680AEC6A99 /* Build configuration list for PBXNativeTarget "SuperTextView-SuperTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1331E34CDE135651DBFD4459DFF4DD5C /* Debug */,
+				91747A22153C577DF01AD9B7BA84F108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59B33910F2F50D79E22BEC2BA0EE9F4 /* Build configuration list for PBXNativeTarget "SuperTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C61DB1E9FB695658DB6E42193F8E138 /* Debug */,
+				A1572476FA74885FB302BDCBCBBD02A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F135CD362989EACD27413483D40D0463 /* Build configuration list for PBXNativeTarget "Pods-SuperTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8FE723421F8B47321494A00E10A858 /* Debug */,
+				9D1B29CBB05C82E042819397C61942FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
